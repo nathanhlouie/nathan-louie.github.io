@@ -20,7 +20,7 @@ Fischer Random chess, also known as Chess960, is a variation of chess invented b
 
 # Features
 
-The first feature is the essence of Fischer Random chess, a variation of standard chess where the starting position of the pieces on the back ranks is randomized following certain rules. When users hit the randomize button, the sample starting position will be randomized
+The first feature is the essence of Fischer Random chess, a variation of standard chess where the starting position of the pieces on the back ranks is randomized following certain rules. When users hit the randomize button, the sample starting position will be randomized.
 
 Next, users can play that specific randomized position in a game on Lichess.org, a popular online chess website. Before playing the game, users are able to change the initial amount of time for the chess, and the amount of time gained for each move played. When pressing play, a new tab will be opened on Lichess, and the user will be able to join the game, and can share the link with a friend to start the game.
 
