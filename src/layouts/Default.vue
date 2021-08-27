@@ -34,12 +34,14 @@
 
     <footer class="footer">
       <span class="footer__socials"
+        ><a href="mailto:nathanhlouie@gmail.com"
+          ><font-awesome icon="envelope" size="lg"/></a
+        ><a href="//github.com/nathan-louie"
+          ><font-awesome :icon="['fab', 'github']" size="lg"/></a
         ><a href="//twitter.com/nathanhlouie"
-          ><font-awesome :icon="['fab', 'twitter']"
+          ><font-awesome :icon="['fab', 'twitter']" size="lg"
         /></a>
-        <a href="//github.com/nathan-louie"
-          ><font-awesome :icon="['fab', 'github']"/></a
-      ></span>
+      </span>
       <span class="footer__me">Designed and developed by Nathan Louie</span>
     </footer>
   </div>
@@ -113,7 +115,7 @@ export default {
   &__socials {
     margin-top: -0.5em;
     a {
-      padding-inline: 0 0.5em;
+      padding-inline: 0 0.8em;
     }
   }
 }

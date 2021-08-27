@@ -1,14 +1,9 @@
-// This is where project configuration and plugin options are located.
-// Learn more: https://gridsome.org/docs/config
-
-// Changes here requires a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
-
 module.exports = {
   siteName: "Nathan Louie",
   siteDescription: "My development portfolio!",
   siteUrl: "https://nathan.louie.ca",
   pathPrefix: "/nathan-louie.github.io",
+  titleTemplate: "%s | Nathan Louie",
 
   templates: {
     Post: "/:title",

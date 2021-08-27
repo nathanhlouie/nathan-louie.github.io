@@ -9,11 +9,12 @@
     </p>
 
     <p class="author__links">
-      <a href="//twitter.com/nathanhlouie"
-        ><font-awesome :icon="['fab', 'twitter']"
-      /></a>
-      <a href="//github.com/nathan-louie"
-        ><font-awesome :icon="['fab', 'github']"
+      <a href="mailto:nathanhlouie@gmail.com"
+        ><font-awesome icon="envelope" size="lg"/></a
+      ><a href="//github.com/nathan-louie"
+        ><font-awesome :icon="['fab', 'github']" size="lg"/></a
+      ><a href="//twitter.com/nathanhlouie"
+        ><font-awesome :icon="['fab', 'twitter']" size="lg"
       /></a>
     </p>
   </div>
