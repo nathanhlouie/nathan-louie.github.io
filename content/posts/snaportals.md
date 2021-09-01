@@ -1,6 +1,6 @@
 ---
 title: snaportals
-canonical_url: false
+canonical_url: true
 description: "A way to get the current real life status of your friends while remote."
 ---
 

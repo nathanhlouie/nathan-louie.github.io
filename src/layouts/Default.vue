@@ -3,7 +3,7 @@
     <header class="header">
       <div class="header__left">
         <span>
-          <g-link class="link" to="/">
+          <g-link class="link" :to="{ path: '/' }">
             Nathan Louie
           </g-link>
         </span>
@@ -12,7 +12,7 @@
       <div class="header__right">
         <span class="header__right__theme"><ToggleTheme /></span>
         <span>
-          <g-link class="link" to="/about">
+          <g-link class="link" :to="{ path: '/about' }">
             about
           </g-link>
         </span>
