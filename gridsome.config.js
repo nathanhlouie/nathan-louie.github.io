@@ -2,7 +2,6 @@ module.exports = {
   siteName: "Nathan Louie",
   siteDescription: "My development portfolio!",
   siteUrl: "https://nathan.louie.ca",
-  pathPrefix: "/nathan-louie.github.io",
   titleTemplate: "%s | Nathan Louie",
 
   templates: {
