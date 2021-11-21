@@ -19,7 +19,7 @@
         <span>
           <a
             class="link"
-            href="https://drive.google.com/file/d/1RUGRhcpKZNhUTOCTy7oXzXmRtl2glJN-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zlqMFyd0rdLuEcevbTvhO0FEhZraldIS/view?usp=sharing"
             target="_blank"
           >
             resume
