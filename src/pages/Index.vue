@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Author />
+    <Introduction />
 
     <div class="posts">
       <PostCard
@@ -28,12 +28,12 @@ query {
 </page-query>
 
 <script>
-import Author from "~/components/Author.vue";
+import Introduction from "~/components/Introduction.vue";
 import PostCard from "~/components/PostCard.vue";
 
 export default {
   components: {
-    Author,
+    Introduction,
     PostCard,
   },
   metaInfo: { title: "Home" },
