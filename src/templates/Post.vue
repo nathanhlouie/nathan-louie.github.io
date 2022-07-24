@@ -17,8 +17,6 @@
 
       <div class="post__content" v-html="$page.post.content" />
     </div>
-
-    <Author class="post-author" />
   </Layout>
 </template>
 
@@ -49,10 +47,6 @@ query Post ($id: ID!) {
     title
     path
     timeToRead
-    tags {
-      id
-      path
-    }
     description
     content
     cover_image (width: 860, blur: 10)

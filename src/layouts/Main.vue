@@ -11,6 +11,15 @@
 
       <div class="header__right">
         <span class="header__right__theme"><ToggleTheme /></span>
+        <span class="footer__socials"
+          ><a href="mailto:nathanhlouie@gmail.com"
+            ><font-awesome icon="envelope" size="lg"/></a
+          ><a href="//github.com/nathan-louie"
+            ><font-awesome :icon="['fab', 'github']" size="lg"/></a
+          ><a href="//twitter.com/nathanhlouie"
+            ><font-awesome :icon="['fab', 'twitter']" size="lg"
+          /></a>
+        </span>
         <span>
           <g-link class="link" :to="{ path: '/about' }">
             about
@@ -33,15 +42,6 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__socials"
-        ><a href="mailto:nathanhlouie@gmail.com"
-          ><font-awesome icon="envelope" size="lg"/></a
-        ><a href="//github.com/nathan-louie"
-          ><font-awesome :icon="['fab', 'github']" size="lg"/></a
-        ><a href="//twitter.com/nathanhlouie"
-          ><font-awesome :icon="['fab', 'twitter']" size="lg"
-        /></a>
-      </span>
       <span class="footer__me">Designed and developed by Nathan Louie</span>
     </footer>
   </div>

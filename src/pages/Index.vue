@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Author :show-title="true" />
+    <Author />
 
     <div class="posts">
       <PostCard
