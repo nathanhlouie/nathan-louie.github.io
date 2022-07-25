@@ -20,15 +20,15 @@
             ><font-awesome :icon="['fab', 'twitter']" size="lg"
           /></a>
         </span>
-        <span>
+        <!-- <span>
           <g-link class="link" :to="{ path: '/about' }">
             about
           </g-link>
-        </span>
+        </span> -->
         <span>
           <a
             class="link"
-            href="https://drive.google.com/file/d/1zlqMFyd0rdLuEcevbTvhO0FEhZraldIS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1z9kJYOz1YDHf07YKKEe242GFT4x2-JEO/view?usp=sharing"
             target="_blank"
           >
             resume

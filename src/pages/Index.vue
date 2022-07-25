@@ -14,9 +14,10 @@
 
 <page-query>
 query {
-  posts: allPost(sortBy: "title", order: ASC) {
+  posts: allPost(sortBy: "id", order: ASC) {
     edges {
       node {
+        id
         title
         description
         cover_image (width: 770, height: 380)

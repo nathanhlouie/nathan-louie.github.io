@@ -3,6 +3,7 @@ title: gofisch
 cover_image: ./images/gofisch-cover.jpg
 canonical_url: true
 description: "An easy way to start playing Fischer Random/960 chess."
+id: 2
 ---
 
 # gofisch

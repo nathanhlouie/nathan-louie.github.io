@@ -5,18 +5,14 @@
     </h1>
 
     <p class="author__intro">
-      I'm a high-school developer making projects I find fun!
+      I'm a developer passionate about solving intricate problems.
+    </p>
+    <p class="author__intro">
+      I'm a Computer Science student at the University of Waterloo. I'm
+      currently working at The Bike Brigade.
     </p>
   </div>
 </template>
-
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <script>
 export default {

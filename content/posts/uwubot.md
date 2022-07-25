@@ -3,6 +3,7 @@ title: Rhythm Game
 cover_image: ./images/uwubot.jpg
 canonical_url: true
 description: "Experimental Rhythm Game to learn more about Javascript."
+id: 5
 ---
 
 # Rhythm Game
